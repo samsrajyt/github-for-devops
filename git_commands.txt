@@ -9,3 +9,6 @@ git commit -m 'Added testing.py' - to move the file to be tracked
 rm .\testing.py
 git status
 git restore testing.py - to restore the deleted file
+
+
+added a new line to this file , please sync your locals repos!!!
