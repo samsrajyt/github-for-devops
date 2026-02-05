@@ -1,0 +1,11 @@
+git init - to intialize an empty repository
+
+git status - to check the status 
+git add .\testing.py - to add the untracked files to staging / to stage
+
+git rm --cached .\testing.py - to move the stage file to untracked 
+git commit -m 'Added testing.py' - to move the file to be tracked 
+
+rm .\testing.py
+git status
+git restore testing.py - to restore the deleted file
